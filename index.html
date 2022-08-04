@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Player</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+        }
+
+        body::before {
+            background: url(bgsp.webp) center center/cover;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        /* intro */
+        #intro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 12px;
+        }
+
+        span {
+            font-size: 1.1rem;
+            text-shadow: 4px 2px 14px white;
+        }
+
+        #logo {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 100px;
+            margin: 6px;
+        }
+
+        /* games */
+        .main {
+            display: flex;
+            font-size: 1.2rem;
+            margin: 0rem 2rem;
+        }
+
+        .no {
+            width: 3.6rem;
+            border: 2px solid white;
+            text-align: center;
+        }
+
+        .name {
+            width: 20rem;
+            border: 2px solid white;
+            padding-left: 9px;
+            text-shadow: 2px 2px 6px black;
+        }
+
+        .platform {
+            border: 2px solid white;
+            width: 11rem;
+            text-align: center;
+        }
+
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .f {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+
+        .ub {
+            filter: invert(1);
+        }
+
+        P {
+            margin: 4px;
+            margin-left: 2rem;
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="intro">
+        <img id="logo" src="IMG_20220321_140059_771.jpg" alt="">
+        <span>SMASHER787</span>
+    </div>
+    <p>The games which are free</p>
+    <p>You can click on the logo for link </p>
+    <div class="main">
+        <div class="no">
+            Series
+        </div>
+        <div class="name" style="text-align: center;">
+            Name
+        </div>
+        <div class="platform">Available on</div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            1.
+        </div>
+        <div class="name f">
+            Minecraft
+        </div>
+        <div class="platform">
+            <a href="https://tlauncher.org/en/" target="_blank"><img src="tl.webp" alt=""></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="no">
+            2.
+        </div>
+        <div class="name f">
+            Far Cry 3
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+            <img src="epic.png" alt="">
+            <img class="ub" src="ub.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            3.
+        </div>
+        <div class="name f">
+            Far Cry 4
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+            <img src="epic.png" alt="">
+            <img class="ub" src="ub.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            4.
+        </div>
+        <div class="name f">
+            Far Cry 5
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+            <img src="epic.png" alt="">
+            <img class="ub" src="ub.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            5.
+        </div>
+        <div class="name f">
+            Control
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            6.
+        </div>
+        <div class="name f">
+            Gta 5
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+            <img src="epic.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            7.
+        </div>
+        <div class="name f">
+            RDR 2
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            8.
+        </div>
+        <div class="name f">
+            Resident Evil 2
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            9.
+        </div>
+        <div class="name f">
+            Cyber Punk 2077
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            10.
+        </div>
+        <div class="name f">
+            Hitman 1
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+            <img src="epic.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            11.
+        </div>
+        <div class="name f">
+            Hitman 2
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            12.
+        </div>
+        <div class="name f">
+            Hitman 3
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+            <img src="epic.png" alt="">
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            13.
+        </div>
+        <div class="name f">
+            Witcher 3
+        </div>
+        <div class="platform">
+            <img src="steam.png" alt="">
+            <img src="epic.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
